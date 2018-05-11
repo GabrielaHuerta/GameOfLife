@@ -6,7 +6,7 @@
  *
  */
 
-public class College extends Career
+public class College
 {
 
 }

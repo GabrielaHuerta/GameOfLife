@@ -5,7 +5,7 @@
  *
  */
 
-public class NoCollege extends Career
+public class NoCollege
 {
 
 }
