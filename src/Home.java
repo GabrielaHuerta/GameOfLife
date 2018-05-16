@@ -14,7 +14,7 @@ public class Home
     	 typeHouse.add(new House("Country Cottage", 1000000.00, "Large yard with garden, frog pond, picket fence. Sunny and cozy inside!" )); 
     	 typeHouse.add(new House("Dutch Colonial", 120000.00, "8 spacious rooms w/study, den. Solar-heated, wood-burning stoves, solid oak floors.")); 
     	 typeHouse.add(new House("Beach House", 140000.00, "Only 50 yards from Monsoon beach. Sun deck, boat dock, hurrican wall. Hurry while it lasts!")); 
-    	 typeHouse.add(new House("Farmhouse", 160000.00, "Located on 50 rolling acres! Garbazo bean crops, prize-winning pigs and dairy cows, spacious barn w/silo.")); 
+    	 typeHouse.add(new House("Farmhouse", 160000.00, "Located on 50 rolling acres! Garbanzo bean crops, prize-winning pigs and dairy cows, spacious barn w/silo.")); 
     	 typeHouse.add(new House("Tudor", 180000.00, "Tufloors, tubaths, tucar garage. Perfect for tupeople with tukids or more!")); 
     	 typeHouse.add(new House("Victorian", 200000.00, "Library, parlor, servant's quarters, marble fireplaces, wraparound porch.")); 
     	 typeHouse.add(new House("Ranch Style", 140000.0, "A cool ranch with alot of cows and a broken down farmhouse full of chickens.")); 
