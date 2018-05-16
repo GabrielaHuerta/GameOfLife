@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * Money class keeps track of a Player's
  * money(in bills), stocks, and salary.
@@ -9,5 +11,6 @@
 
 public class Money
 {
-
+	private int salary;
+	
 }

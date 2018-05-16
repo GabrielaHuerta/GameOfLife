@@ -8,5 +8,7 @@
 
 public class Bank
 {
-
+	private int bill100;
+	private int bill20;
+	
 }
