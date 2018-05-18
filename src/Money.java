@@ -1,16 +1,28 @@
-import java.util.Arrays;
-
-/**
- * Money class keeps track of a Player's
- * money(in bills), stocks, and salary.
- * It totals all money(including tiles)
- * when Game finishes.
- * @author oz_hu
- *
- */
 
 public class Money
 {
-	private int salary;
+	private double total;
 	
+	public Money()
+	{
+		total = 200;
+	}
+	
+	public void add(double money)
+	{
+		total += money;
+	}
+	
+	public void sub(double money)
+	{
+		total -= money;
+	}
+	
+	//gives money to another player
+	public double payOther(double give)
+	{
+		total -= give; 
+		
+		return give;
+	}
 }
