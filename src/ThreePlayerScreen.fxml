@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="388.0" prefWidth="532.0" style="-fx-background-color: rgba(255,255,0,.80);" text="Three Player Screen" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ThreePlayerScreenController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+         <children>
+            <HBox alignment="BOTTOM_CENTER" prefHeight="366.0" prefWidth="532.0" spacing="50.0">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="20.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="43.0" prefWidth="62.0" text="Player One" />
+                        <TextField fx:id="name1" text="Enter Name" />
+                        <TextField fx:id="gender1" text="Enter Gender" />
+                        <TextField fx:id="color1" text="Enter Car Color" />
+                        <Button mnemonicParsing="false" onAction="#addPlayer1" text="Enter" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="20.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="43.0" prefWidth="62.0" text="Player Two" />
+                        <TextField fx:id="name2" text="Enter Name" />
+                        <TextField fx:id="gender2" text="Enter Gender" />
+                        <TextField fx:id="color2" text="Enter Car Color" />
+                        <Button mnemonicParsing="false" onAction="#addPlayer2" text="Enter" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" layoutX="98.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0" spacing="20.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="43.0" prefWidth="77.0" text="Player Three" />
+                        <TextField fx:id="name3" text="Enter Name" />
+                        <TextField fx:id="gender3" text="Enter Gender" />
+                        <TextField fx:id="color3" text="Enter Car Color" />
+                        <Button mnemonicParsing="false" onAction="#addPlayer3" text="Enter" />
+                     </children>
+                  </VBox>
+               </children>
+               <padding>
+                  <Insets bottom="40.0" />
+               </padding>
+            </HBox>
+            <Button layoutX="244.0" layoutY="313.0" mnemonicParsing="false" onAction="#openBoard" text="Done" />
+         </children></AnchorPane>
+  </content>
+</TitledPane>
