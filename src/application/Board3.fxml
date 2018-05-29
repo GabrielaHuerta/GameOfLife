@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="919.0" prefWidth="1316.0" text="Board For Three" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Board3Controller">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="374.0" prefWidth="437.0">
+         <children>
+            <ImageView fitHeight="925.0" fitWidth="875.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../board.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="spin" alignment="CENTER" layoutX="100.0" layoutY="105.0" prefHeight="71.0" prefWidth="72.0" style="-fx-background-color: rgba(95,173,91,1); -fx-font-family: tahoma; -fx-font-size: 22;" />
+            <Button layoutX="68.0" layoutY="14.0" mnemonicParsing="false" onAction="#spin" prefHeight="20.0" prefWidth="137.0" style="-fx-background-color: rgb(237,0,0); -fx-text-fill: rgb(255,255,255); -fx-font-family: tohoma; -fx-font-size: 14;" text="Spin" />
+            <TabPane layoutX="887.0" layoutY="14.0" prefHeight="533.0" prefWidth="420.0" style="-fx-background-color: rgb(214,214,214); -fx-border-color: rgb(200,200,200); -fx-border-width: 3;" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab text="Player 1">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <VBox alignment="TOP_CENTER" prefHeight="504.0" prefWidth="420.0">
+                                 <children>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="165.0" prefWidth="420.0" spacing="75.0">
+                                       <children>
+                                          <Label prefHeight="14.0" prefWidth="57.0" text="Home: " />
+                                          <ImageView fitHeight="169.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="75.0">
+                                       <children>
+                                          <Label text="Career: " />
+                                          <ImageView fitHeight="152.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="75.0">
+                                       <children>
+                                          <Label text="Money: " />
+                                          <Label text="Amount" />
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER" prefHeight="87.0" prefWidth="420.0">
+                                       <children>
+                                          <Label text="Message" />
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+                <Tab text="Player 2">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <VBox alignment="TOP_CENTER" prefHeight="504.0" prefWidth="420.0">
+                                 <children>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="165.0" prefWidth="420.0" spacing="75.0">
+                                       <children>
+                                          <Label prefHeight="14.0" prefWidth="57.0" text="Home: " />
+                                          <ImageView fitHeight="169.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="75.0">
+                                       <children>
+                                          <Label text="Career: " />
+                                          <ImageView fitHeight="152.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="75.0">
+                                       <children>
+                                          <Label text="Money: " />
+                                          <Label text="Amount" />
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER" prefHeight="87.0" prefWidth="420.0">
+                                       <children>
+                                          <Label text="Message" />
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+                  <Tab text="Player 3">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <VBox alignment="TOP_CENTER" prefHeight="504.0" prefWidth="420.0">
+                                 <children>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="165.0" prefWidth="420.0" spacing="75.0">
+                                       <children>
+                                          <Label prefHeight="14.0" prefWidth="57.0" text="Home: " />
+                                          <ImageView fitHeight="169.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="75.0">
+                                       <children>
+                                          <Label text="Career: " />
+                                          <ImageView fitHeight="152.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="75.0">
+                                       <children>
+                                          <Label text="Money: " />
+                                          <Label text="Amount" />
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER" prefHeight="87.0" prefWidth="420.0">
+                                       <children>
+                                          <Label text="Message" />
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </Tab>
+              </tabs>
+            </TabPane>
+            <Label alignment="CENTER" layoutX="971.0" layoutY="727.0" prefHeight="72.0" prefWidth="230.0" text="Message" />
+         </children></AnchorPane>
+  </content>
+</TitledPane>
