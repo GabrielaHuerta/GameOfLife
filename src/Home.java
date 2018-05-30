@@ -8,18 +8,19 @@ public class Home
  
     public Home()
     {
-    	 typeHouse.add(new House("SplitLevel", 40000.00, "Was one level before the 'quake. Now a real fixer-upper for adventurous folks!")); 
-    	 typeHouse.add(new House("Mobile Home", 60000.00, "Aluminum-sided little beauty! Great location, lovely view. Trailer hitch included.")); 
-    	 typeHouse.add(new House("Log Cabin", 80000.00, "Rustic Charm in a woodland setting. Loft w/skylight, stone fireplace. Near Lake Ketcheefishee. ")); 
-    	 typeHouse.add(new House("Country Cottage", 1000000.00, "Large yard with garden, frog pond, picket fence. Sunny and cozy inside!" )); 
-    	 typeHouse.add(new House("Dutch Colonial", 120000.00, "8 spacious rooms w/study, den. Solar-heated, wood-burning stoves, solid oak floors.")); 
-    	 typeHouse.add(new House("Beach House", 140000.00, "Only 50 yards from Monsoon beach. Sun deck, boat dock, hurrican wall. Hurry while it lasts!")); 
-    	 typeHouse.add(new House("Farmhouse", 160000.00, "Located on 50 rolling acres! Garbanzo bean crops, prize-winning pigs and dairy cows, spacious barn w/silo.")); 
-    	 typeHouse.add(new House("Tudor", 180000.00, "Tufloors, tubaths, tucar garage. Perfect for tupeople with tukids or more!")); 
-    	 typeHouse.add(new House("Victorian", 200000.00, "Library, parlor, servant's quarters, marble fireplaces, wraparound porch.")); 
-    	 typeHouse.add(new House("Ranch Style", 140000.0, "A cool ranch with alot of cows and a broken down farmhouse full of chickens.")); 
-    	 typeHouse.add(new House("Small Cape", 160000.00, "Charming cape, with backyard pool.")); 
-    	 typeHouse.add(new House("Executive Cape", 4000000.00, "Better than the Small Cape.")); 
+    	 typeHouse.add(new House("House Boat", 200000.00, "gh1.jpg")); 
+    	 typeHouse.add(new House("Teepee", 100000.00, "gh2.jpg")); 
+    	 typeHouse.add(new House("Farm House", 300000.00, "gh3.jpg")); 
+    	 typeHouse.add(new House("Eco House", 200000.00, "gh4.jpg" )); 
+    	 typeHouse.add(new House("Beach Hut", 100000.00, "gh5.jpg")); 
+    	 typeHouse.add(new House("City Penthouse", 600000.00, "gh6.jpg")); 
+    	 typeHouse.add(new House("Idio Apartment", 100000.00, "gh7.jpg")); 
+    	 typeHouse.add(new House("Family House", 250000.00, "gh8.jpg")); 
+    	 typeHouse.add(new House("Ranch House", 600000.00, "gh9.jpg")); 
+    	 typeHouse.add(new House("Luxury Apartment", 250000.0, "gh10.jpg")); 
+    	 typeHouse.add(new House("Windmill", 350000.00, "gh11.jpg")); 
+    	 typeHouse.add(new House("Cozy Cottage", 150000.00, "gh12.jpg")); 
+         typeHouse.add(new House("Dream Villa", 300000.00, "gh13.jpg")); 
     }
     
     public boolean getHasHouse()
